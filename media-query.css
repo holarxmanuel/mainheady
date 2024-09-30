@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px) {
+
+    .heading-content h1 {
+        animation-iteration-count: 0;
+    }
+
+    #animate-first {
+        left: 0;
+    }
+
+    .about-container {
+        grid-template-columns: none;
+    }
+
+    .text-box {
+        width: 100%;
+    }
+
+    #animate-header {
+        /* display: flex; */
+        top: 50%;
+        font-size: 1rem;
+    }
+}
+

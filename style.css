@@ -1,0 +1,364 @@
+:root {
+    --color-white: #fff;
+    --color-offwhite: rgb(192, 192, 192);
+    --color-black: #000;
+    --color-red: #ff0000;
+    --color-blue: #0000ff;
+    --color-green: #008000;
+
+
+    --transition: all 400ms ease;
+
+    --container-width: 90%;
+    --container-width-tablet: 90%;
+    --container-width-phone: 96%;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(/images/moon-2048727_1920.jpg);
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    padding: 0 10%;
+    position: fixed;
+    width: 100%;
+    opacity: .7;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+
+.nav-links a {
+    display: inline-block;
+    padding: 0 2%;
+    text-decoration: none;
+    color: var(--color-offwhite);
+}
+
+.nav-links a:hover {
+    font-size: .9rem;
+    text-decoration: wavy;
+    /* cursor: pointer; */
+}
+
+nav img {
+    width: 150px;
+    height: 50px;
+    margin: 0 1%;
+}
+
+.heading-content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: auto;
+    line-height: 3rem;
+    text-align: center;
+    overflow: hidden;
+    perspective: 200px;
+}
+
+.heading-content h1 {
+    font-weight: 700;
+    position: relative;
+    opacity: 0;
+    animation-duration: 12s;
+    animation-iteration-count: 1;
+    
+}
+
+#animation-id {
+    animation-name: animation-id;
+}
+ 
+@keyframes animation-id {
+    /* 100% { opacity: 0;} */
+}
+
+
+
+
+#eng {
+    animation-name: eng;
+}
+
+
+
+@keyframes eng {
+    /* 20% { left: 15vw;}
+    40% { left: 10vw;}
+    60% { left: 5vw;} */
+    95% { left: 3vw;}
+    
+    0% { color: var(--color-red); opacity: 1; font-size: 4rem; left: 20vw;}
+    25% { color: var(--color-green);}
+    75% { color: var(--color-blue);}
+    100% { color: var(--color-red); opacity: 1; left: 0; }
+}
+
+
+#frh {
+    animation-name: frh;
+    animation-delay: 1.5s;
+}
+
+@keyframes frh {
+        /* 20% { left: 15vw;}
+    40% { left: 10vw;}
+    60% { left: 5vw;} */
+    95% { left: 3vw;}
+
+    0.5% { color: var(--color-red); opacity: 1; font-size: 2rem; left: 20vw;}
+    25% { color: var(--color-green);}
+    75% { color: var(--color-blue);}
+    100% { color: var(--color-red); opacity: 1; left: 0;}
+}
+#ch {
+    animation-name: ch;
+    animation-delay: 3s;
+}
+
+
+@keyframes ch {
+
+        /* 20% { left: 15vw;}
+    40% { left: 10vw;}
+    60% { left: 5vw;} */
+    95% { left: 3vw;}
+    0.5% { color: var(--color-red); opacity: 1; font-size: 2rem; left: 20vw;}
+    25% { color: var(--color-green);}
+    75% { color: var(--color-blue);}
+    100% { color: var(--color-red); opacity: 1; left: 0;}
+}
+
+#rus {
+    animation-name: rus;
+    animation-delay: 4.5s;
+}
+
+
+@keyframes rus {
+        /* 20% { left: 15vw;}
+    40% { left: 10vw;}
+    60% { left: 5vw;} */
+    95% { left: 3vw;}
+
+    0.5% { color: var(--color-red); opacity: 1; font-size: 2rem; left: 20vw;}
+    25% { color: var(--color-green);}
+    75% { color: var(--color-blue);}
+    100% { color: var(--color-red); opacity: 1; left: 0;}
+}
+#spn {
+    animation-name: spn;
+    animation-delay: 6s;
+}
+
+@keyframes spn {
+        /* 20% { left: 15vw;}
+    40% { left: 10vw;}
+    60% { left: 5vw;} */
+    95% { left: 3vw;}
+
+    0.5% { color: var(--color-red); opacity: 1; font-size: 2rem; left: 20vw;}
+    25% { color: var(--color-green);}
+    75% { color: var(--color-blue);}
+    100% { color: var(--color-red); opacity: 1; left: 0;}
+}
+#lat {
+    animation-name: lat;
+    animation-delay: 7.5s;
+}
+
+@keyframes lat {
+        /* 20% { left: 15vw;}
+    40% { left: 10vw;}
+    60% { left: 5vw;} */
+    95% { left: 3vw;}
+
+    0.5% { color: var(--color-red); opacity: 1; font-size: 2rem; left: 20vw;}
+    25% { color: var(--color-green);}
+    75% { color: var(--color-blue);}
+    100% { color: var(--color-red); opacity: 1; left: 0;}
+}
+
+#hind {
+    animation-name: hind;
+    animation-delay: 9s;
+}
+
+@keyframes hind {
+    /* 20% { left: 15vw;}
+    40% { left: 10vw;}
+    60% { left: 5vw;} */
+    95% { left: 3vw;}
+    
+    0.5% { color: var(--color-red); opacity: 1; font-size: 2rem; left: 20vw;}
+    25% { color: var(--color-green);}
+    75% { color: var(--color-blue);}
+    100% { color: var(--color-red); opacity: 1; left: 0;}
+}
+
+#jap {
+    animation-name: jap;
+    animation-delay: 10.5s;
+}
+
+
+@keyframes jap {
+        /* 20% { left: 15vw;}
+    40% { left: 10vw;}
+    60% { left: 5vw;} */
+    95% { left: 3vw;}
+
+    0.5% { color: var(--color-red); opacity: 1; font-size: 2; left: 20vw;}
+    25% { color: var(--color-green);}
+    75% { color: var(--color-blue);}
+    100% { color: var(--color-red); opacity: 1; left: 0;}
+}
+
+
+
+
+
+.container {
+    width: 95%;
+    margin: 2% auto;
+}
+
+.row {
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container p {
+    color: #fff;
+    overflow: hidden;
+}
+
+.container-col {
+    flex-basis: 49%;
+    padding: 2% 5%;
+}
+
+.container-col img {
+    width: 100%;
+}
+
+
+
+
+#animate-header {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    /* left: 40%; */
+    font-size: 2rem;
+    animation-duration: 12s;
+}
+
+#animate-first, #animate-second {
+    text-shadow: 0 0 20px whitesmoke;
+    animation-name: animate-h1;
+    animation-duration: 15s;
+}
+#animate-first {
+    position: relative;
+    left: -15%;
+}
+
+#animate-second {
+    font-family: 'Great Vibes';
+}
+
+
+@keyframes animate-h1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        z-index: 1;
+    }
+}
+
+
+/* End of styles for header */
+
+.container {
+    width: var(--container-width);
+    height: 80%;    
+}
+.about-container {
+    display: grid;
+    grid-template-columns: 5fr 1.2fr;
+    /* padding: 1rem; */
+    margin: 0 auto;
+    padding: 1rem 0;
+    color: var(--color-white);
+    padding-bottom: 5rem;
+}
+
+
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-letter {
+    font-size: 2.5rem;
+    font-weight: .5rem;
+}
+
+.text-box {
+    width: 80%;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 3rem;
+}
+
+.about-image img{
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px var(--color-offwhite);
+}
+
+
+/* Pls use background remover for the image or clippy art */
+/* Download logos for html, css, javascript... */
