@@ -1,0 +1,146 @@
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+
+    .header {
+        padding: 7px 5px;
+    }
+
+    .logo {
+        font-size: 6vw;
+        padding-left: 10px;
+    }
+
+    .navbar {
+        margin-left: 3vw;
+    }
+    .navbar a {
+        font-size: 3vw;
+    }
+
+    .home {
+        height: 100vh;
+        /* background: yellowgreen; */
+        padding: 0 10% 0 15px;
+    }
+    .home-content {
+        width: 90%;
+        /* background: red; */
+    }
+
+
+    .home-content h1 {
+        font-size: 23px;
+        margin-top: 40px;
+    }
+
+    .home-content h3 {
+        font-size: 15px;
+        /* margin: 8px 0 8px 0; */
+    }
+
+    .home-content p {
+        font-size: 10px;
+        max-width: 70vw;
+        margin-bottom: 20px;
+        /* line-height: 9px; */
+        
+    }
+
+    .btn-box {
+        display: flex;
+        justify-content: space-between;
+        max-height: 20px;
+        max-width: 50vw;
+
+    }
+
+    .btn-box a {
+        font-size: 8px;
+        height: 100%;
+        margin: 0 2px 0 2px;
+        
+    }
+    
+
+    .home-imgHover {
+        visibility: hidden;
+    }
+
+    .home-sci {
+        width: 50px;
+        margin: 0 60% 0 40%;
+
+    }
+
+    .home-sci a {
+        
+        height: 10px;
+        width: 10px;
+    }
+
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navbar a {
+        font-size: 17px;
+        margin-left: 25px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-content p {
+        max-width: 60%;
+    }
+
+    .btn-box {
+        width: 100%;
+    }
+
+    .btn-box a {
+        width: 45%; /* Two buttons side by side */
+        margin-bottom: 10px;
+    }
+
+    .home-sci {
+        margin-top: 500px;
+        width: 150px;
+    }
+}
+
+/* Small Desktop Styles */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .home-content h1 {
+        font-size: 48px;
+    }
+
+    .home-content h3 {
+        font-size: 30px;
+    }
+}
+
+/* Large Desktop Styles */
+@media only screen and (min-width: 1025px) {
+    .header {
+        padding: 20px 10%; /* As per original CSS */
+    }
+}
